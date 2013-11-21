@@ -8,9 +8,19 @@
 	st = status
 	unstage = reset HEAD --
 	last = log -1 HEAD
+  hist = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+  type = cat-file -t
+  dump = cat-file -p
 [core]
 	editor = vim
+  autocrlf = false
 [merge]
 	tool = vimdiff
 [push]
 	default = simple
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = true
+	ui = true
