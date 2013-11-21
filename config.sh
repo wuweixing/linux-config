@@ -7,3 +7,4 @@ ln -s $PWD/.gitconfig ~/.gitconfig
 ln -s $PWD/.bashrc ~/.bashrc
 ln -s ~/.bashrc ~/.bash_profile
 ln -s $PWD/.vimrc ~/.vimrc
+git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
