@@ -502,7 +502,8 @@ set nocompatible               " be iMproved
  " non github repos
  Bundle 'git://git.wincent.com/command-t.git'
  " git repos on your local machine (ie. when working on your own plugin)
- Bundle 'file:///home/wwx/.vim/bkplugin/calendar'
+ " Bundle 'file:///home/wwx/.vim/bkplugin/calendar'
+ Bundle 'git@10.0.3.186:wwx/calendar-vim.git'
  " ...
 
  filetype plugin indent on     " required!
