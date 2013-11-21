@@ -94,7 +94,8 @@ endif
 	set history=100 " 设置冒号命令和搜索命令的列表的长度为 
 	set autochdir " 自动切换当前目录为当前文件所在的目录
 	set hlsearch "高亮显示结果
-  set mouse=a " 设定在任何模式下鼠标都可用
+  "set mouse=a " 设定在任何模式下鼠标都可用
+  set mouse=v " 设定在任何模式下鼠标都可用
 	set foldcolumn=2
 	set foldmethod=indent
 	set wildmenu          "增强模式中的命令行自动完成操作
