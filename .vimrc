@@ -536,3 +536,7 @@ map <silent> <F8> :if &buftype == 'nofile' <bar> exe 'q' <bar> else <bar> exe 'C
 " xml格式化
 " 状态行
 	set showcmd " 在状态栏显示目前所执行的指令，未完成的指令片段亦会显示出来
+  
+if has('mouse')
+  set mouse-=a
+endif
